@@ -13,7 +13,7 @@ def main():
     input_array = file.readlines()
 
     # Count IDs containing 2 of the same or 3 of the same letter
-    # Multiple the count of these together to get the checksum
+    # Multiply the count of these together to get the checksum
 
     # If a string contains 2 of the same and 3 of the same, count it for both
     # If a string contains 2 occurences of 2 of the same, it only counts once
