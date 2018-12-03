@@ -2,7 +2,7 @@
 
 def main():
     # Set the path to the input for the challenge
-    path = './inputs/1.txt'
+    path = 'Day1\\input.txt'
 
     # Open the file in read-only mode
     file = open(path, 'r')
