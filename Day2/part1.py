@@ -31,9 +31,9 @@ def main():
         has_three = 0
 
         for value in letter_count.values():
-            if (value == 2) and (has_two < 1 or has_three > 0 and has_three < 2):
+            if value == 2 and has_two < 1:
                 has_two += 1
-            elif (value == 3) and (has_three < 1 or has_two > 0 and has_two < 2):
+            elif value == 3 and has_three < 1:
                 has_three += 1
 
         # Add them onto our counts
